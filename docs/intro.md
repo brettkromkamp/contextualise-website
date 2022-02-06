@@ -8,7 +8,8 @@ Contextualise is a simple but effective tool particularly suited for organising 
 
 ## Topic Maps
 
-There are several important aspects of **topic maps** that you need to understand in order to get the most out of Contextualise. These critical concepts include:
+There are several important aspects of [topic maps](https://ontopia.net/topicmaps/materials/tao.html) that you need to understand in order to get the most out of Contextualise. These critical concepts include:
+
 * Topics
 * Associations
 * Occurrences and information resources
