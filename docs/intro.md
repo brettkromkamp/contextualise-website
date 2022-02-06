@@ -49,7 +49,7 @@ Remember, all of the entities in the above associations would be topics includin
 Because all of the above entities are topics, you can attach (information) resources to them. In topic maps terminology, *occurrences* are what connect information resources to topics.
 
 ### Occurrences and Information Resources
-As mentioned before, from a topic map point of view, an occurrence is what establishes a connection between a topic and an information resource. In practical terms, you don't have to really think about it like that. That is, you just *attach* resources to a topic, for example, by uploading an image or providing a link to a YouTube video and behind the scenes, without any further action on your behalf, Contextualise will create the accompanying occurrence (object).
+As mentioned before, from a topic map point of view, an **occurrence** is what establishes a connection between a topic and an information resource. In practical terms, you don't have to really think about it like that. That is, you just *attach* resources to a topic, for example, by uploading an image or providing a link to a YouTube video and behind the scenes, without any further action on your behalf, Contextualise will create the accompanying occurrence (object).
 
 Out of the box, Contextualise supports *attaching* the following types of information resources to topics:
 
@@ -63,3 +63,9 @@ Out of the box, Contextualise supports *attaching* the following types of inform
 ### Scopes
 
 Pending
+
+## Final Words
+
+I hope you enjoy using Contextualise as much as I enjoy developing it. What's more,  I also genuinely hope that Contextualise can help you to improve your thinking process. If you have any suggestions, questions or critique with regards to Contextualise, I would love to hear from you.
+
+> *I will see you again, in the place where no shadows fall*.

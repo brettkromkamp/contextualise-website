@@ -4,4 +4,72 @@ sidebar_position: 1
 
 # Getting Started
 
+Contextualise officially supports Python 3.7–3.10.
+
+If you have [Git](https://git-scm.com/) installed on your system, it is possible to install the development version of Contextualise.
+
+Do:
+```bash
+    $ git clone https://github.com/brettkromkamp/contextualise
+    $ cd contextualise
+    $ git checkout develop
+    $ pip install -e .
+```
+
+The ```pip install -e .``` command allows you to follow the development branch as it changes by creating links in the right places and installing the command line scripts to the appropriate locations.
+
+Then, if you want to update Contextualise at any time, in the same directory do:
+
+```bash
+    $ git pull
+```
+
+[TopicDB](https://github.com/brettkromkamp/topic-db), the topic maps engine on top of which Contextualise is built is regularly updated. However, the version of TopicDB published on [PyPI](https://pypi.org/project/topic-db/) could lag behind. For that reason, it is recommended that you also install TopicDB directly from GitHub:
+
+```bash
+    $ pip uninstall topic-db
+    $ git clone https://github.com/brettkromkamp/topic-db.git
+    $ cd topic-db
+    $ git checkout develop
+    $ pip install -e .
+```
+
+Then, if you want to update TopicDB at any time, in the same directory do:
+
+```bash
+    $ git pull
+```
+
+Finally, to run the application in **development** mode you need to change to the project's top-level directory and set two environment variables followed by running the ```flask``` command with the ```run``` parameter:
+
+```bash
+    $ export FLASK_APP=contextualise
+    $ export FLASK_ENV=development
+    $ flask run
+```
+
+You should see something similar to the following in the terminal:
+
+```
+    * Serving Flask app "contextualise" (lazy loading)
+    * Environment: development
+    * Debug mode: on
+    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+    * Restarting with stat
+    * Debugger is active!
+    * Debugger PIN: 521-258-444
+```
+
+Opening the browser and navigating to ```http://127.0.0.1:5000/``` should result in showing something similar to the application's *Welcome* page.
+
+**The Contextualise Welcome page**
+
 Pending
+
+Flask's built-in server is not suitable for production purposes. However, it is quite straightforward to run Contextualise using [Gunicorn](https://gunicorn.org/), a Python [WSGI](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface) HTTP server:
+
+```bash
+    $ gunicorn -w 4 -b 0.0.0.0:5000 contextualise.wsgi:app
+```
+
+For further information for properly running a flask application in production, take a look at Flask's own [documentation](https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment).
