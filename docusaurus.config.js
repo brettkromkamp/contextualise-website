@@ -106,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Brett Kromkamp`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://brettkromkamp.com/">Brett Kromkamp</a>`,
       },
       prism: {
         theme: lightCodeTheme,

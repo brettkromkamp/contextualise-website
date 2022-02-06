@@ -58,7 +58,7 @@ Out of the box, Contextualise supports *attaching* the following types of inform
 * Files
 * Video links
 * Links
-* glTF-based 3D scenes
+* [glTF](https://www.khronos.org/gltf/)-based 3D scenes
 
 ### Scopes
 
@@ -66,6 +66,6 @@ Pending
 
 ## Final Words
 
-I hope you enjoy using Contextualise as much as I enjoy developing it. What's more,  I also genuinely hope that Contextualise can help you to improve your thinking process. If you have any suggestions, questions or critique with regards to Contextualise, I would love to hear from you.
+I hope you enjoy using Contextualise as much as I enjoy developing it. What's more, I also genuinely hope that Contextualise can help you to improve your thinking process. If you have any suggestions, questions or critique with regards to Contextualise, I would love to hear from you.
 
 > *I will see you again, in the place where no shadows fall*.
