@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Structured Thought',
+    title: 'Structured Knowledge',
     Svg: require('../../static/img/teaching.svg').default,
     description: (
       <>

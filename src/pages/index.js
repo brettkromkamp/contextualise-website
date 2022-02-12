@@ -22,8 +22,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Structured Thought`}
-      description="Contextualise: Structured Thought">
+      title={`Structured Knowledge`}
+      description="Contextualise: Structured Knowledge">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
